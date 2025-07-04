@@ -90,6 +90,7 @@ public class ProductCatalogStepDefinitions {
         ArrayList<String> originalListProductNames;
         ArrayList<Double> originalListProductPrices;
         ArrayList<Double> willBeSortedProductPrices;
+
         switch (sortType) {
             case "alphabetic":
                 originalListProductNames = new ArrayList<>(productNames);

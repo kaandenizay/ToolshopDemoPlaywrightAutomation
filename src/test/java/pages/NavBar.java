@@ -14,12 +14,10 @@ public class NavBar {
         page.getByTestId("nav-cart").click();
     }
 
-    @Step("Open home page")
     public void openHomePage() {
         page.navigate("https://practicesoftwaretesting.com");
     }
 
-    @Step("Open contact page")
     public void toTheContactPage() {
         page.navigate("https://practicesoftwaretesting.com/contact");
     }
